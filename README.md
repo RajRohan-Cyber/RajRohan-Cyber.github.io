@@ -22,8 +22,8 @@
 │  [DEGREE]  B.TECH — COMPUTER SCIENCE & ENGINEERING           │
 │  [FOCUS]   WEB SECURITY • NETWORKS • RECON • AUTOMATION      │
 │                                                              │
-│  $ whoami                                                     │
-│  raj_rohan_cyber                                              │
+│  $ whoami                                                    │
+│  raj_rohan_cyber                                             │
 └──────────────────────────────────────────────────────────────┘
 ```
 
