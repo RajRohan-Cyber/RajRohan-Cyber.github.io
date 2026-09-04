@@ -14,17 +14,17 @@
 [![Email](https://img.shields.io/badge/EMAIL-CONTACT-0a100d?style=for-the-badge&logo=gmail&logoColor=63ff9d)](mailto:rohansrivastava966@gmail.com)
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│  RAJ ROHAN CYBER // SECURITY OPERATIONS                      │
-│                                                              │
-│  [SYSTEM]  ONLINE                                            │
-│  [ROLE]    ASPIRING PENETRATION TESTER                       │
-│  [DEGREE]  B.TECH — COMPUTER SCIENCE & ENGINEERING           │
-│  [FOCUS]   WEB SECURITY • NETWORKS • RECON • AUTOMATION      │
-│                                                              │
-│  $ whoami                                                    │
-│  raj_rohan_cyber                                             │
-└──────────────────────────────────────────────────────────────┘
+            ┌──────────────────────────────────────────────────────────────┐
+            │  RAJ ROHAN CYBER // SECURITY OPERATIONS                      │
+            │                                                              │
+            │  [SYSTEM]  ONLINE                                            │
+            │  [ROLE]    ASPIRING PENETRATION TESTER                       │
+            │  [DEGREE]  B.TECH — COMPUTER SCIENCE & ENGINEERING           │
+            │  [FOCUS]   WEB SECURITY • NETWORKS • RECON • AUTOMATION      │
+            │                                                              │
+            │  $ whoami                                                    │
+            │  raj_rohan_cyber                                             │
+            └──────────────────────────────────────────────────────────────┘
 ```
 
 ### 🌐 **PORTFOLIO:** [**rajrohan-cyber.github.io →**](https://rajrohan-cyber.github.io/)
