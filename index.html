@@ -1,68 +1,776 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="RajRohan-Cyber — Cybersecurity and penetration testing portfolio">
-<title>RAJ ROHAN CYBER // SECURITY OPERATIONS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+        name="description"
+        content="Raj Rohan Cyber — Cybersecurity and penetration testing portfolio"
+    >
+
+    <meta
+        name="theme-color"
+        content="#63ff9d"
+    >
+
+    <title>RAJ ROHAN CYBER // SECURITY OPERATIONS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css?v=20260904">
+
 </head>
+
 <body>
-<div class="scanlines"></div><div class="boot" id="boot"><div><span class="accent">[+]</span> INITIALIZING RAJ ROHAN CYBER...</div><div><span class="accent">[+]</span> LOADING SECURITY MODULES...</div><div><span class="accent">[+]</span> ESTABLISHING SECURE CHANNEL...</div><div><span class="accent">[OK]</span> OPERATOR PROFILE ACTIVE.</div><button id="enter">ENTER SYSTEM</button></div>
 
-<header>
-<a class="brand" href="#home"><span>RR</span> RAJ ROHAN CYBER</a>
-<nav><a href="#operator">Operator</a><a href="#arsenal">Arsenal</a><a href="#missions">Missions</a><a href="#clearance">Clearance</a><a href="#comms">Comms</a></nav>
-<button id="theme" title="Toggle display">◐</button><button id="menu">☰</button>
-</header>
+    <div class="scanlines"></div>
 
-<main>
-<section id="home" class="hero">
-<div class="hero-left">
-<div class="system">SYSTEM // SECURITY OPERATIONS <span>ONLINE</span></div>
-<p class="kicker">CYBERSECURITY • PENTESTING • COMPUTER SCIENCE</p>
-<h1>Raj Rohan<br><span>Cybersecurity.</span></h1>
-<p class="hero-text">Aspiring penetration tester and Computer Science Engineer focused on web application security, network security, reconnaissance and security automation.</p>
-<div class="buttons"><a class="btn primary" href="#missions">VIEW MISSIONS ↗</a><a class="btn primary" href="resume/" target="_blank" rel="noopener noreferrer">VIEW RESUME ↗</a><a class="btn" href="resume/index.html" download="Raj-Rohan-Cyber-Resume.html">DOWNLOAD RESUME ↗</a></div>
-<div class="links"><a href="https://github.com/RajRohan-Cyber" target="_blank">GITHUB ↗</a><a href="https://www.linkedin.com/in/i-am-raj-rohan" target="_blank">LINKEDIN ↗</a><a href="mailto:rohansrivastava966@gmail.com">EMAIL ↗</a></div>
-</div>
-<div class="console"><div class="console-head"><i></i><i></i><i></i><span>secure-shell // raj@cyber</span></div><div class="console-body"><p><b>$</b> whoami</p><p class="out">raj_rohan_cyber</p><p><b>$</b> cat objective.txt</p><p class="out">find weaknesses.<br>understand impact.<br>document remediation.</p><p><b>$</b> ./status</p><p class="green">[+] AUTHORIZED LABS / LEARNING / BUILDING</p><p><b>$</b> <span class="blink">_</span></p></div></div>
-</section>
+    <!-- BOOT SCREEN -->
+    <div class="boot" id="boot">
 
-<section id="operator" class="section">
-<div class="section-title"><span>01 //</span><h2>OPERATOR PROFILE</h2></div>
-<div class="operator-grid"><div><p class="lead">Curious by nature. Methodical in testing. Focused on responsible security.</p><p>I’m Raj Rohan, a B.Tech Computer Science & Engineering graduate building a career in cybersecurity. I’m developing practical skills through controlled labs, security projects and hands-on learning.</p><p>My goal is to join a security team where I can learn from experienced professionals, contribute to authorized assessments and grow into a strong penetration tester.</p></div>
-<div class="readout"><div><small>IDENTITY</small><strong>RAJ ROHAN</strong></div><div><small>ROLE</small><strong>ASPIRING PENETRATION TESTER</strong></div><div><small>EDUCATION</small><strong>B.TECH • CSE</strong></div><div><small>STATUS</small><strong class="green">OPEN TO OPPORTUNITIES</strong></div></div></div>
-</section>
+        <div>
+            <span class="accent">[+]</span>
+            INITIALIZING RAJ ROHAN CYBER...
+        </div>
 
-<section id="arsenal" class="section">
-<div class="section-title"><span>02 //</span><h2>SECURITY ARSENAL</h2></div>
-<div class="arsenal-grid">
-<article><b class="num">01</b><h3>WEB APPLICATION SECURITY</h3><p>Understanding application flows, authentication, authorization, input handling and common vulnerability classes.</p><div class="chips"><span>Burp Suite</span><span>OWASP</span><span>HTTP</span></div></article>
-<article><b class="num">02</b><h3>RECON & ENUMERATION</h3><p>Learning structured asset discovery, service enumeration and attack-surface mapping in authorized environments.</p><div class="chips"><span>Nmap</span><span>DNS</span><span>Enumeration</span></div></article>
-<article><b class="num">03</b><h3>NETWORK SECURITY</h3><p>Working with Linux, TCP/IP, ports, services, packet analysis and fundamental network security concepts.</p><div class="chips"><span>Linux</span><span>Wireshark</span><span>TCP/IP</span></div></article>
-<article><b class="num">04</b><h3>SECURITY AUTOMATION</h3><p>Using scripting to automate repetitive security workflows, process findings and improve assessment efficiency.</p><div class="chips"><span>Python</span><span>Bash</span><span>Git</span></div></article>
-</div></section>
+        <div>
+            <span class="accent">[+]</span>
+            LOADING SECURITY MODULES...
+        </div>
 
-<section id="missions" class="section">
-<div class="section-title"><span>03 //</span><h2>FIELD MISSIONS</h2></div><p class="sub">Controlled labs, academic work and security projects. Replace these with your verified repositories and write-ups.</p>
-<div class="missions">
-<article><div class="mission-top"><span>MISSION_001</span><b>WEB SECURITY</b></div><h3>WEB APPLICATION SECURITY LAB</h3><p>Controlled lab work focused on request analysis, authentication, access control and input validation.</p><div class="chips"><span>Burp Suite</span><span>OWASP</span><span>Linux</span></div><a href="https://github.com/RajRohan-Cyber" target="_blank">CASE FILE ↗</a></article>
-<article><div class="mission-top"><span>MISSION_002</span><b>NETWORK</b></div><h3>NETWORK RECON LAB</h3><p>Authorized lab exploring host discovery, service enumeration and structured security assessment reporting.</p><div class="chips"><span>Nmap</span><span>Wireshark</span><span>TCP/IP</span></div><a href="https://github.com/RajRohan-Cyber" target="_blank">CASE FILE ↗</a></article>
-<article><div class="mission-top"><span>MISSION_003</span><b>AUTOMATION</b></div><h3>SECURITY RECON HELPER</h3><p>Python-based learning project concept for organizing authorized reconnaissance results and assessment notes.</p><div class="chips"><span>Python</span><span>CLI</span><span>Automation</span></div><a href="https://github.com/RajRohan-Cyber" target="_blank">CASE FILE ↗</a></article>
-</div></section>
+        <div>
+            <span class="accent">[+]</span>
+            ESTABLISHING SECURE CHANNEL...
+        </div>
 
-<section id="clearance" class="section">
-<div class="section-title"><span>04 //</span><h2>SECURITY CLEARANCE</h2></div>
-<div class="clearance-grid"><div class="clearance-main"><div class="clearance-row"><span>EDUCATION</span><strong>B.TECH — COMPUTER SCIENCE & ENGINEERING</strong><em>COMPLETED</em></div><div class="clearance-row"><span>CYBERSECURITY LEARNING</span><strong>WEB • NETWORK • LINUX • SECURITY FUNDAMENTALS</strong><em>ACTIVE</em></div><div class="clearance-row"><span>HANDS-ON PRACTICE</span><strong>CONTROLLED LABS • CTF-STYLE CHALLENGES</strong><em>ACTIVE</em></div></div><div class="notice"><b>RESPONSIBLE TESTING</b><p>Security testing should only be performed with explicit authorization and within defined scope.</p></div></div>
-</section>
+        <div>
+            <span class="accent">[OK]</span>
+            OPERATOR PROFILE ACTIVE.
+        </div>
 
-<section id="comms" class="section comms">
-<div class="system">SECURE CHANNEL // OPEN COMMS</div><h2>LET'S CONNECT.</h2><p>Looking for an entry-level cybersecurity, penetration testing or security analyst opportunity.</p>
-<div class="buttons"><a class="btn primary" href="mailto:rohansrivastava966@gmail.com">INITIATE EMAIL ↗</a><a class="btn" href="https://www.linkedin.com/in/i-am-raj-rohan" target="_blank">LINKEDIN ↗</a></div>
-<p class="email">rohansrivastava966@gmail.com</p></section>
-</main>
-<footer><span>RAJ ROHAN CYBER // 2026</span><span>AUTHORIZED SECURITY RESEARCH ONLY</span></footer>
-<script src="script.js"></script>
-</body></html>
+        <button id="enter">
+            ENTER SYSTEM
+        </button>
+
+    </div>
+
+
+    <!-- HEADER -->
+    <header>
+
+        <a class="brand" href="#home">
+            <span>RR</span>
+            RAJ ROHAN CYBER
+        </a>
+
+        <nav id="nav">
+
+            <a href="#operator">
+                Operator
+            </a>
+
+            <a href="#arsenal">
+                Arsenal
+            </a>
+
+            <a href="#projects">
+                Projects
+            </a>
+
+            <a href="#clearance">
+                Clearance
+            </a>
+
+            <a href="#comms">
+                Comms
+            </a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button
+                id="theme"
+                title="Toggle display"
+                aria-label="Toggle display theme"
+            >
+                ◐
+            </button>
+
+            <button
+                id="menu"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+
+            <div class="hero-left">
+
+                <div class="system">
+                    SYSTEM // SECURITY OPERATIONS
+                    <span>ONLINE</span>
+                </div>
+
+                <p class="kicker">
+                    CYBERSECURITY • PENTESTING • COMPUTER SCIENCE
+                </p>
+
+                <h1>
+                    Raj Rohan<br>
+                    <span>Cybersecurity.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Aspiring penetration tester and Computer Science Engineer
+                    focused on web application security, network security,
+                    reconnaissance and security automation.
+                </p>
+
+                <div class="buttons">
+
+                    <a
+                        class="btn primary"
+                        href="#projects"
+                    >
+                        VIEW PROJECTS ↗
+                    </a>
+
+                    <a
+                        class="btn primary"
+                        href="resume/Raj-Rohan-Cybersecurity-Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        VIEW RESUME ↗
+                    </a>
+
+                    <a
+                        class="btn"
+                        href="resume/Raj-Rohan-Cybersecurity-Resume.pdf"
+                        download="Raj-Rohan-Cybersecurity-Resume.pdf"
+                    >
+                        DOWNLOAD RESUME ↗
+                    </a>
+
+                </div>
+
+                <div class="links">
+
+                    <a
+                        href="https://github.com/RajRohan-Cyber"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GITHUB ↗
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/i-am-raj-rohan"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LINKEDIN ↗
+                    </a>
+
+                    <a
+                        href="mailto:rohansrivastava966@gmail.com"
+                    >
+                        EMAIL ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- TERMINAL -->
+            <div class="console">
+
+                <div class="console-head">
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+
+                    <span>
+                        secure-shell // raj@cyber
+                    </span>
+
+                </div>
+
+                <div class="console-body">
+
+                    <p>
+                        <b>$</b>
+                        whoami
+                    </p>
+
+                    <p class="out">
+                        raj_rohan_cyber
+                    </p>
+
+                    <p>
+                        <b>$</b>
+                        cat objective.txt
+                    </p>
+
+                    <p class="out">
+                        find weaknesses.<br>
+                        understand impact.<br>
+                        document remediation.
+                    </p>
+
+                    <p>
+                        <b>$</b>
+                        ./status
+                    </p>
+
+                    <p class="green">
+                        [+] AUTHORIZED LABS / LEARNING / BUILDING
+                    </p>
+
+                    <p>
+                        <b>$</b>
+                        <span class="blink">_</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OPERATOR -->
+        <section id="operator" class="section">
+
+            <div class="section-title">
+
+                <span>01 //</span>
+
+                <h2>
+                    OPERATOR PROFILE
+                </h2>
+
+            </div>
+
+
+            <div class="operator-grid">
+
+                <div>
+
+                    <p class="lead">
+                        Curious by nature. Methodical in testing.
+                        Focused on responsible security.
+                    </p>
+
+                    <p>
+                        I’m Raj Rohan, a B.Tech Computer Science &
+                        Engineering graduate building a career in
+                        cybersecurity. I’m developing practical skills
+                        through controlled labs, security projects and
+                        hands-on learning.
+                    </p>
+
+                    <p>
+                        My goal is to join a security team where I can
+                        learn from experienced professionals, contribute
+                        to authorized assessments and grow into a strong
+                        penetration tester.
+                    </p>
+
+                </div>
+
+
+                <div class="readout">
+
+                    <div>
+                        <small>IDENTITY</small>
+                        <strong>RAJ ROHAN</strong>
+                    </div>
+
+                    <div>
+                        <small>ROLE</small>
+                        <strong>
+                            ASPIRING PENETRATION TESTER
+                        </strong>
+                    </div>
+
+                    <div>
+                        <small>EDUCATION</small>
+                        <strong>
+                            B.TECH • CSE
+                        </strong>
+                    </div>
+
+                    <div>
+                        <small>STATUS</small>
+                        <strong class="green">
+                            OPEN TO OPPORTUNITIES
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ARSENAL -->
+        <section id="arsenal" class="section">
+
+            <div class="section-title">
+
+                <span>02 //</span>
+
+                <h2>
+                    SECURITY ARSENAL
+                </h2>
+
+            </div>
+
+
+            <div class="arsenal-grid">
+
+                <article>
+
+                    <b class="num">01</b>
+
+                    <h3>
+                        WEB APPLICATION SECURITY
+                    </h3>
+
+                    <p>
+                        Understanding application flows, authentication,
+                        authorization, input handling and common
+                        vulnerability classes.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>Burp Suite</span>
+                        <span>OWASP</span>
+                        <span>HTTP</span>
+
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <b class="num">02</b>
+
+                    <h3>
+                        RECON & ENUMERATION
+                    </h3>
+
+                    <p>
+                        Learning structured asset discovery, service
+                        enumeration and attack-surface mapping in
+                        authorized environments.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>Nmap</span>
+                        <span>DNS</span>
+                        <span>Enumeration</span>
+
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <b class="num">03</b>
+
+                    <h3>
+                        NETWORK SECURITY
+                    </h3>
+
+                    <p>
+                        Working with Linux, TCP/IP, ports, services,
+                        packet analysis and fundamental network
+                        security concepts.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>Linux</span>
+                        <span>Wireshark</span>
+                        <span>TCP/IP</span>
+
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <b class="num">04</b>
+
+                    <h3>
+                        SECURITY AUTOMATION
+                    </h3>
+
+                    <p>
+                        Using scripting to automate repetitive security
+                        workflows, process findings and improve
+                        assessment efficiency.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>Python</span>
+                        <span>Bash</span>
+                        <span>Git</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+
+            <div class="section-title">
+
+                <span>03 //</span>
+
+                <h2>
+                    PROJECTS
+                </h2>
+
+            </div>
+
+            <p class="sub">
+                Security projects, cybersecurity development and
+                hands-on technical work.
+            </p>
+
+
+            <div class="projects">
+
+
+                <!-- PROJECT 01 -->
+                <article class="project-card">
+
+                    <div class="project-top">
+
+                        <span>
+                            PROJECT_001
+                        </span>
+
+                        <b>
+                            PORTFOLIO
+                        </b>
+
+                    </div>
+
+                    <h3>
+                        CYBERSECURITY PORTFOLIO
+                    </h3>
+
+                    <p>
+                        Personal cybersecurity portfolio website built
+                        to showcase penetration testing interests,
+                        technical skills, projects and professional
+                        information.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>GitHub Pages</span>
+
+                    </div>
+
+                    <a
+                        href="https://github.com/RajRohan-Cyber/RajRohan-Cyber.github.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        VIEW PROJECT ↗
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 02 -->
+                <article class="project-card">
+
+                    <div class="project-top">
+
+                        <span>
+                            PROJECT_002
+                        </span>
+
+                        <b>
+                            VOICE AI
+                        </b>
+
+                    </div>
+
+                    <h3>
+                        VERMITHOR 1.0
+                    </h3>
+
+                    <p>
+                        Python CLI voice assistant featuring wake-word
+                        detection, speech recognition, text-to-speech,
+                        basic memory and system/application commands.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>Python</span>
+                        <span>Speech Recognition</span>
+                        <span>TTS</span>
+                        <span>CLI</span>
+
+                    </div>
+
+                    <a
+                        href="https://github.com/RajRohan-Cyber/Vermithor-1.0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        VIEW PROJECT ↗
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 03 -->
+                <article class="project-card">
+
+                    <div class="project-top">
+
+                        <span>
+                            PROJECT_003
+                        </span>
+
+                        <b>
+                            LOCAL AI
+                        </b>
+
+                    </div>
+
+                    <h3>
+                        VERMITHOR 2.0
+                    </h3>
+
+                    <p>
+                        Expanded voice assistant with a graphical
+                        interface, local AI integration, offline
+                        speech recognition, application launching,
+                        browser actions and Windows automation.
+                    </p>
+
+                    <div class="chips">
+
+                        <span>Python</span>
+                        <span>Faster-Whisper</span>
+                        <span>Ollama</span>
+                        <span>Tkinter</span>
+                        <span>PyAutoGUI</span>
+
+                    </div>
+
+                    <a
+                        href="https://github.com/RajRohan-Cyber/Vermithor-2.0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        VIEW PROJECT ↗
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CLEARANCE -->
+        <section id="clearance" class="section">
+
+            <div class="section-title">
+
+                <span>04 //</span>
+
+                <h2>
+                    SECURITY CLEARANCE
+                </h2>
+
+            </div>
+
+
+            <div class="clearance-grid">
+
+                <div class="clearance-main">
+
+                    <div class="clearance-row">
+
+                        <span>
+                            EDUCATION
+                        </span>
+
+                        <strong>
+                            B.TECH — COMPUTER SCIENCE & ENGINEERING
+                        </strong>
+
+                        <em>
+                            COMPLETED
+                        </em>
+
+                    </div>
+
+
+                    <div class="clearance-row">
+
+                        <span>
+                            CYBERSECURITY LEARNING
+                        </span>
+
+                        <strong>
+                            WEB • NETWORK • LINUX • SECURITY FUNDAMENTALS
+                        </strong>
+
+                        <em>
+                            ACTIVE
+                        </em>
+
+                    </div>
+
+
+                    <div class="clearance-row">
+
+                        <span>
+                            HANDS-ON PRACTICE
+                        </span>
+
+                        <strong>
+                            CONTROLLED LABS • CTF-STYLE CHALLENGES
+                        </strong>
+
+                        <em>
+                            ACTIVE
+                        </em>
+
+                    </div>
+
+                </div>
+
+
+                <div class="notice">
+
+                    <b>
+                        RESPONSIBLE TESTING
+                    </b>
+
+                    <p>
+                        Security testing should only be performed with
+                        explicit authorization and within defined scope.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="comms" class="section comms">
+
+            <div class="system">
+                SECURE CHANNEL // OPEN COMMS
+            </div>
+
+            <h2>
+                LET'S CONNECT.
+            </h2>
+
+            <p>
+                Looking for an entry-level cybersecurity,
+                penetration testing or security analyst opportunity.
+            </p>
+
+
+            <div class="buttons">
+
+                <a
+                    class="btn primary"
+                    href="mailto:rohansrivastava966@gmail.com?subject=Cybersecurity%20Opportunity%20for%20Raj%20Rohan"
+                >
+                    INITIATE EMAIL ↗
+                </a>
+
+                <a
+                    class="btn"
+                    href="https://www.linkedin.com/in/i-am-raj-rohan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LINKEDIN ↗
+                </a>
+
+            </div>
+
+
+            <a
+                class="email"
+                href="mailto:rohansrivastava966@gmail.com"
+            >
+                rohansrivastava966@gmail.com
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <span>
+            RAJ ROHAN CYBER // 2026
+        </span>
+
+        <span>
+            AUTHORIZED SECURITY RESEARCH ONLY
+        </span>
+
+    </footer>
+
+
+    <script src="script.js?v=20260904"></script>
+
+</body>
+</html>
